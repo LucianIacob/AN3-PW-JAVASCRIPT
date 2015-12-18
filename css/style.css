@@ -1,0 +1,71 @@
+p.ex2 {
+    padding: 6cm 6cm;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0) linear-gradient(#f0f0f0 0px, #d9e4f1 100px) repeat scroll 0 0;
+}
+
+.btn_numeric {
+    background: rgba(0, 0, 0, 0) linear-gradient(#f7fbff 0%, #edf3f8 49%, #e7edf5 50%, #f3fbff 100%) repeat scroll 0 0;
+    font-size: 15px;
+    border: 1px solid #8797aa;
+    height: 27px;
+    line-height: 25px;
+    position: relative;
+    border-radius: 3px;
+    color: #1c3759;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    cursor: pointer;
+    width: 35px;
+}
+
+.btn_0 {
+    background: rgba(0, 0, 0, 0) linear-gradient(#f7fbff 0%, #edf3f8 49%, #e7edf5 50%, #f3fbff 100%) repeat scroll 0 0;
+    font-size: 15px;
+    border: 1px solid #8797aa;
+    height: 27px;
+    line-height: 25px;
+    position: relative;
+    border-radius: 3px;
+    color: #1c3759;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    cursor: pointer;
+    width: 76px;
+}
+
+.btn_egal {
+    background: rgba(0, 0, 0, 0) linear-gradient(#f7fbff 0%, #edf3f8 49%, #e7edf5 50%, #f3fbff 100%) repeat scroll 0 0;
+    font-size: 15px;
+    border: 1px solid #8797aa;
+    height: 61px;
+    line-height: 25px;
+    position: relative;
+    border-radius: 3px;
+    color: #1c3759;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    cursor: pointer;
+    width: 35px;
+}
+
+.display_form {
+    background: rgba(0, 0, 0, 0) linear-gradient(#e6effb, #ffffff) repeat scroll 0 0;
+    padding: 15px 5px 5px;
+    font-size: 15px;
+    border: 1px solid #8797aa;
+    height: 41px;
+    line-height: 25px;
+    position: relative;
+    border-radius: 3px;
+    color: #1c3759;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    cursor: pointer;
+    width: 200px;
+    text-align: right
+}

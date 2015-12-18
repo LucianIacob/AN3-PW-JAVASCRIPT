@@ -1,0 +1,63 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<p class="ex2">
+<table border="0.5" align="center">
+    <tr>
+        <td colspan="5"><input class="display_form" value="" type="text" id="display_text" maxlength="20" title="">
+        </td>
+    </tr>
+    <tr>
+        <td><input class="btn_numeric" type="button" value="C" id="button_backspace"
+                   onclick="btn_bkspace()">
+        </td>
+        <td><input class="btn_numeric" type="button" value="&larr;" id="button_delete_char"
+                   onclick="btn_del_char()"></td>
+        <td><input class="btn_numeric" type="button" value="+/-" id="button_Sign_plus"
+                   onclick="btn_change_sign()"></td>
+        <td><input class="btn_numeric" type="button" value="sqrt" id="button_sqrt" onclick="btn_sqrt()">
+        </td>
+        <td><input class="btn_numeric" type="button" value="x^y" id="button_xPOWy" onclick="btn_xPOWy()">
+        </td>
+    </tr>
+    <tr>
+        <td><input class="btn_numeric" type="button" value="7" id="button_7"
+                   onclick="btn_num({number : 7})">
+        </td>
+        <td><input class="btn_numeric" type="button" value="8" id="button_8"
+                   onclick="btn_num({number : 8})">
+        </td>
+        <td><input class="btn_numeric" type="button" value="9" id="button_9"
+                   onclick="btn_num({number : 9})">
+        </td>
+        <td><input class="btn_numeric" type="button" value="/" id="button_division"
+                   onclick="btn_division()">
+        </td>
+        <td><input class="btn_numeric" type="button" value="%" id="button_mod" onclick="btn_mod()"></td>
+    </tr>
+    <tr>
+        <td><input class="btn_numeric" type="button" value="4" id="button_4" onclick="btn_num({number : 4})"></td>
+        <td><input class="btn_numeric" type="button" value="5" id="button_5" onclick="btn_num({number : 5})"></td>
+        <td><input class="btn_numeric" type="button" value="6" id="button_6" onclick="btn_num({number : 6})"></td>
+        <td><input class="btn_numeric" type="button" value="*" id="button_multiply" onclick="multiply()"></td>
+        <td><input class="btn_numeric" type="button" value="1/x" id="button_divide" onclick="btn_div()"></td>
+    </tr>
+    <tr>
+        <td><input class="btn_numeric" type="button" value="1" id="button_1" onclick="btn_num({number : 1})"></td>
+        <td><input class="btn_numeric" type="button" value="2" id="button_2" onclick="btn_num({number : 2})"></td>
+        <td><input class="btn_numeric" type="button" value="3" id="button_3" onclick="btn_num({number : 3})"></td>
+        <td><input class="btn_numeric" type="button" value="-" id="button_minus" onclick="minus()"></td>
+        <td rowspan="2"><input class="btn_egal" type="button" id="button_show_result" value="="
+                               onclick="btn_show_result()"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input class="btn_0" type="button" value="0" id="button_0" onclick="btn_num({number : 0})"></td>
+        <td><input class="btn_numeric" type="button" value="," id="button_comma" onclick="comma()"></td>
+        <td><input class="btn_numeric" type="button" value="+" id="button_plus" onclick="add()"></td>
+    </tr>
+</table>
+</body>
+</html>
